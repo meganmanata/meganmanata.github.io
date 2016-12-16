@@ -1,3 +1,9 @@
 body {
-    background: red;
+    background: #77f2f7;
+}
+h1 {
+	font-family: tahoma, Geneva, sans-serif;
+	color: #606262;
+	font-size: 70px;
+	text-align: center;
 }
