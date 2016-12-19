@@ -1,9 +1,28 @@
 body {
-    background: #77f2f7;
+    background: #fbfbfb;
 }
 h1 {
 	font-family: tahoma, Geneva, sans-serif;
 	color: #606262;
 	font-size: 70px;
 	text-align: center;
+}
+img {
+	margin: auto;
+	display: block;
+}
+li {
+	text-decoration: none;
+	list-style: none;
+	display: inline;
+	padding: 25px;
+	color: white;
+	font-family: tahoma, sans-serif;
+}
+ul {
+	background: #304860;
+}
+a {
+	color: white;
+	text-decoration: none;
 }
