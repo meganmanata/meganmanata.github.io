@@ -2,7 +2,7 @@ body {
     background: #fbfbfb;
 }
 h1 {
-	font-family: tahoma, Geneva, sans-serif;
+	font-family: Tahoma, Verdana, sans-serif;
 	color: #606262;
 	font-size: 70px;
 	text-align: center;
@@ -10,6 +10,7 @@ h1 {
 img {
 	margin: auto;
 	display: block;
+	height: 300px;
 }
 li {
 	text-decoration: none;
@@ -17,7 +18,7 @@ li {
 	display: inline;
 	padding: 25px;
 	color: white;
-	font-family: tahoma, sans-serif;
+	font-family: Tahoma, Verdana, sans-serif;
 }
 ul {
 	background: #304860;
