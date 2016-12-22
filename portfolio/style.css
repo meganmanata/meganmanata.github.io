@@ -1,5 +1,6 @@
 body {
     background: #fbfbfb;
+    background-image: url("upfeathers.png");
 }
 h1 {
 	font-family: Tahoma, Verdana, sans-serif;
@@ -7,10 +8,10 @@ h1 {
 	font-size: 70px;
 	text-align: center;
 }
-img {
+.hello{
 	margin: auto;
 	display: block;
-	height: 300px;
+	height: 400px;
 }
 li {
 	text-decoration: none;

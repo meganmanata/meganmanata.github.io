@@ -1,0 +1,10 @@
+/**********************************************
+Megan - center the H5 text, set font to helvetica, give the text a color of #00E54C, give it a font size of 11px and a line height of 40px;
+**********************************************/
+h5 {
+	text-align: center;
+	font-family: helvetica;
+	color: #00E54C;
+	font-size: 11px;
+	line-height: 40px;
+}
