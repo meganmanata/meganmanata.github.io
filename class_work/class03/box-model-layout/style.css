@@ -1,0 +1,26 @@
+.outer {
+	background: slategray;
+	padding: 20px;
+}
+.top {
+	background: black;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+.box {
+	background: orangered;
+	padding: 10px;
+	text-align: center;
+	margin: 10px;
+}
+.box1 {
+	color: blue;
+	
+}
+.box2 {
+	color: darkseagreen;
+}
+.box3 {
+	color: lightyellow;
+}

@@ -1,0 +1,53 @@
+body {
+	font-family: lato, sans-serif;
+	font-weight: 300;
+	color: #444444;
+}
+.red-text {
+	color: #C84136;
+}
+header {
+	font-size: 50px;
+	padding-top: 40px;
+	padding-left: 54px;
+}
+.tagline {
+	font-size: 20px;
+	padding-top: 5px;
+	padding-left: 54px;
+}
+.list {
+	list-style: none;
+	display: inline;
+	padding: 5px;
+}
+a {
+	color: #dddddd;
+}
+a:hover {
+	color: black;
+}
+h2 {
+	font-weight: 100;
+	margin: 10px 54px;
+}
+img {
+	display: block;
+	width: 720px;
+	padding-left: 54px;
+}
+.date {
+	color: #cccccc;
+}
+p {
+	padding-left: 54px;
+	width: 700px;
+}
+.cont {
+	text-indent: 700px;
+}
+hr {
+	width: 740px;
+	margin: 10px 0px 0px 54px;
+	color: #dddddd;
+}
