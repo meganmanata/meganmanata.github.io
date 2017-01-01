@@ -21,10 +21,10 @@ header {
 	display: inline;
 	padding: 5px;
 }
-a {
+.top-links {
 	color: #dddddd;
 }
-a:hover {
+.top-links:hover {
 	color: black;
 }
 h2 {
@@ -36,7 +36,7 @@ img {
 	width: 720px;
 	padding-left: 54px;
 }
-.date {
+.gray {
 	color: #cccccc;
 }
 p {
@@ -50,4 +50,15 @@ hr {
 	width: 740px;
 	margin: 10px 0px 0px 54px;
 	color: #dddddd;
+}
+.bottom {
+	font-size: 14px;
+}
+.copyright {
+	padding: 10px 0px 0px 45px;
+
+}
+.bottom-links {
+	color: #C84136;
+	text-decoration: none;
 }
