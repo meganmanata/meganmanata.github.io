@@ -20,6 +20,7 @@ header {
 	list-style: none;
 	display: inline;
 	padding: 5px;
+	padding-left: 15px;
 }
 .top-links {
 	color: #dddddd;
@@ -58,7 +59,13 @@ hr {
 	padding: 10px 0px 0px 45px;
 
 }
-.bottom-links {
+.red-links {
 	color: #C84136;
 	text-decoration: none;
+}
+.red-links:hover {
+	color: black;
+}
+.seperate {
+	color: #dddddd;
 }
