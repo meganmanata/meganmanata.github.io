@@ -52,3 +52,10 @@ h1 {
 	padding: 0px;
 	background-color: #fffe00
 }*/
+.super-top-list {
+	border-bottom: 5px solid #fffe00;
+}
+.brains {
+	font-family: Merriweather, serif;
+	font-weight: 300px;
+}
