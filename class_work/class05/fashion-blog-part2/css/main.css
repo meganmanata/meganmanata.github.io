@@ -70,3 +70,15 @@ hr {
 .seperate {
 	color: #dddddd;
 }
+.left-side {
+	float: left;
+}
+.right-side {
+	float: right;
+
+}
+.clearfix:after {
+      content:"";
+      display:table;
+      clear:both;
+}
