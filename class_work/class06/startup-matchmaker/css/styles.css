@@ -55,7 +55,29 @@ h1 {
 .super-top-list {
 	border-bottom: 5px solid #fffe00;
 }
+.grey-brains {
+	display: inline-block;
+	background-color: #eeeeee;
+	width: 1080px;
+}
 .brains {
 	font-family: Merriweather, serif;
 	font-weight: 300px;
+	text-align: center;
+}
+.taste {
+	color: #999999;
+}
+.yellow-underline {
+	border-bottom: 4px solid #fffe00;
+}
+.background {
+	width: 1080px;
+}
+.choice-1 {
+	float: left;
+}
+.choice-1-copy {
+	display: inline-block;
+	background-color: #eeeeee;
 }
