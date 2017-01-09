@@ -17,7 +17,7 @@ body {
 }
 
 h1 {
-	font-family: Merriweather, serif;
+	font-family: 'Merriweather', serif;
 	font-weight: 700;
 	color: #fffe00;
 }
@@ -44,7 +44,7 @@ h1 {
 .nav-top {
 	color: white;
 	text-decoration: none;
-	font-family: Source Sans Pro, sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 /*hr {
 	display: block;
@@ -61,7 +61,7 @@ h1 {
 	width: 1080px;
 }
 .brains {
-	font-family: Merriweather, serif;
+	font-family: 'Merriweather', serif;
 	font-weight: 300px;
 	text-align: center;
 }
@@ -75,7 +75,7 @@ h1 {
 .background {
 	width: 1080px; /*how do i get the top part behind the header?*/
 }
-div {
+main {
 	overflow: hidden;
 }
 .choice-box {
@@ -83,7 +83,7 @@ div {
 	background-color: #eeeeee;
 	top: 700;
 	position: absolute;
-	height: 151px;
+	height: 155px;
 	width: 1080px;
 }
 .choice-small {
@@ -96,7 +96,7 @@ div {
 .choice-title {
   	font-size: 20px;
 	margin-left: 20px;
-	font-family: Merriweather, serif;
+	font-family: 'Merriweather', serif;
 	display: inline-block;
 	margin-top: 10px;
 	/*border: 3px solid green;*/
@@ -104,7 +104,7 @@ div {
 .choice-body {
 	display: inline-block;
 	width: 200px;
-	font-family: Source Sans Pro, sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	margin-left: 20px;
 	font-size: 13px;
 }
@@ -129,4 +129,5 @@ div {
 	background: black;
 	width: 1080px;
 	height: 100px;
+	/*opacity: .5*/
 }
