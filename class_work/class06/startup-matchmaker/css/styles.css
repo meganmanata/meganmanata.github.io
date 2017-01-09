@@ -11,7 +11,7 @@ body {
 .wrapper {
 	width: 1080px;
 }
-/*//-----TOP BOX-----//*/
+/*///-----TOP BOX-----///*/
 .top-most {
 	background: black;
 }
@@ -51,7 +51,7 @@ h1 {
 	height: 5px;
 	padding: 0px;
 	background-color: #fffe00
-}*/
+}*/ /*bad idea*/
 .super-top-list {
 	border-bottom: 5px solid #fffe00;
 }
@@ -71,13 +71,52 @@ h1 {
 .yellow-underline {
 	border-bottom: 4px solid #fffe00;
 }
+/*///----------MAIN----------///*/
 .background {
 	width: 1080px;
+	height: 600px;
 }
-.choice-1 {
-	float: left;
+.copy-title {
+	font-size: 20px;
+	margin: 0px;
+	padding: 0px;
+	font-family: Merriweather, serif;
+	border: 3px solid green;
+	display: inline-block;
 }
-.choice-1-copy {
+.copy-body {
+	display: inline-block;
+	top: 500;
+	width: 353px;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+	font-family: Source Sans Pro, sans-serif;
+}
+/*.choices {
 	display: inline-block;
 	background-color: #eeeeee;
+	top: 600;
+	position: absolute;
+	height: 136px;
+	width: 530px;
+}*/ /*WHY DOESN'T THIS WORK!!!*/
+.choice-box {
+	display: inline-block;
+	background-color: #eeeeee;
+	top: 600;
+	position: absolute;
+	height: 136px;
+	width: 1060px;
+	padding: 10px 10px 10px 10px;
+}
+.choice-1-button {
+	display: inline-block;
+	background-color: #c6c6c6;
+	top: 800;
+	position: absolute;
+	height: 50px;
+	width: 200px;
+	left: 70;
+	text-align: center;
 }
