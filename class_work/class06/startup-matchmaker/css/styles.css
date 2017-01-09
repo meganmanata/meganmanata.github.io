@@ -22,14 +22,14 @@ h1 {
 	color: #fffe00;
 }
 .name {
-	border: 3px solid green;
+	/*border: 3px solid green;*/
 	display: inline-block;
 	width: 500px;
 	padding-left: 20px;
 }
 .top-list {
 	text-align: right;
-	border: 3px solid green;
+	/*border: 3px solid green;*/
 	display: inline-block;
 	width: 530px;
 	padding-bottom: 10px;
@@ -74,25 +74,25 @@ h1 {
 /*///----------MAIN----------///*/
 .background {
 	width: 1080px;
-	height: 600px;
+	/*height: 600px;*/
 }
-.copy-title {
+/*.copy-title {
 	font-size: 20px;
-	margin: 0px;
+	margin: 0px 20px;
 	padding: 0px;
 	font-family: Merriweather, serif;
-	border: 3px solid green;
+	/*border: 3px solid green;*/
+	/*display: inline-block;
+}*/
+/*.copy-body {
 	display: inline-block;
-}
-.copy-body {
-	display: inline-block;
-	top: 500;
+	top: 700;
 	width: 353px;
 	font-size: 12px;
 	margin: 0px;
 	padding: 0px;
 	font-family: Source Sans Pro, sans-serif;
-}
+}*/
 /*.choices {
 	display: inline-block;
 	background-color: #eeeeee;
@@ -104,19 +104,45 @@ h1 {
 .choice-box {
 	display: inline-block;
 	background-color: #eeeeee;
-	top: 600;
+	top: 700;
 	position: absolute;
-	height: 136px;
-	width: 1060px;
-	padding: 10px 10px 10px 10px;
+	height: 151px;
+	width: 1080px;
+	/*padding: 10px 10px 10px 10px;*/
 }
-.choice-1-button {
+.choice-title {
+	font-size: 20px;
+	margin-left: 20px;
+	font-family: Merriweather, serif;
+	display: inline-block;
+	border: 3px solid green;
+}
+.choice-body {
+	display: inline-block;
+	width: 360px;
+	font-family: Source Sans Pro, sans-serif;
+	margin-left: 20px;
+	font-size: 13px;
+	border: 3px solid green;
+}
+/*.choice-1-button {
 	display: inline-block;
 	background-color: #c6c6c6;
-	top: 800;
+	top: 700;
 	position: absolute;
-	height: 50px;
+	height: 30px;
 	width: 200px;
-	left: 70;
+	left: 30;
 	text-align: center;
+	/*vertical-align: middle;*/
+	/*line-height: 30px;*/
+/*}*/
+.black-box {
+	display: inline-block;
+	background: black;
+	width: 1080px;
+	height: 100px;
+}
+.choice-2 {
+	float: left;
 }
