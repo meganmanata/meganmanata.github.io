@@ -75,7 +75,7 @@ h1 {
 .background {
 	width: 1080px; /*how do i get the top part behind the header?*/
 }
-.div {
+div {
 	overflow: hidden;
 }
 .choice-box {
@@ -103,7 +103,7 @@ h1 {
 }
 .choice-body {
 	display: inline-block;
-	width: 360px;
+	width: 200px;
 	font-family: Source Sans Pro, sans-serif;
 	margin-left: 20px;
 	font-size: 13px;
@@ -111,14 +111,15 @@ h1 {
 .sign-start {
 	display: inline-block;
 	background-color: #c6c6c6;
-	top: 800; 
-	position: absolute;
+	/*top: 800; 
+	position: absolute;*/
 	height: 40px;
 	width: 200px;
 	margin-left: 40px;
+	float: left;
 }
 .button {
-	text-align: center; /*can't figure out how to center in nox center?*/
+	text-align: center; /*can't figure out how to center in box center?*/
 	font-family: 'Oswald', sans-serif;
 }
 
