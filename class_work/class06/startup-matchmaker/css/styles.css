@@ -73,7 +73,7 @@ h1 {
 }
 /*///----------MAIN----------///*/
 .background {
-	width: 1080px;
+	width: 1080px; /*how do i get the top part behind the header?*/
 }
 .div {
 	overflow: hidden;
@@ -107,6 +107,19 @@ h1 {
 	font-family: Source Sans Pro, sans-serif;
 	margin-left: 20px;
 	font-size: 13px;
+}
+.sign-start {
+	display: inline-block;
+	background-color: #c6c6c6;
+	top: 800; 
+	position: absolute;
+	height: 40px;
+	width: 200px;
+	margin-left: 40px;
+}
+.button {
+	text-align: center; /*can't figure out how to center in nox center?*/
+	font-family: 'Oswald', sans-serif;
 }
 
 /*///----------FOOTER----------///*/
