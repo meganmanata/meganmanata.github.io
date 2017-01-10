@@ -8,12 +8,13 @@ grey color: #eeeeee*/
 body {
 	margin: 0px;
 }
-.wrapper {
+/*.wrapper {
 	width: 1080px;
-}
+}*/
 /*///-----TOP BOX-----///*/
 .top-most {
 	background: black;
+	width: 1080px;
 }
 
 h1 {
@@ -59,6 +60,7 @@ h1 {
 	display: inline-block;
 	background-color: #eeeeee;
 	width: 1080px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .brains {
 	font-family: 'Merriweather', serif;
@@ -79,48 +81,84 @@ main {
 	overflow: hidden;
 }
 .choice-box {
-	display: inline-block;
-	background-color: #eeeeee;
-	top: 700;
-	position: absolute;
-	height: 155px;
-	width: 1080px;
+  display: inline-block; 
+  background-color: #eeeeee;
+  width: 1080px;
+  height: 200px;
+  top: 700;
+  position: absolute;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .choice-small {
-  border-right: 2px solid grey; /*no idea how to change height??*/
   display: inline-block;
-  width: 358px;
-  height: 151px;
-  float: left;
+  width: 320px;
+  height: 100px;
+  border-right: 2px solid gray;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 5px;
 }
 .choice-title {
-  	font-size: 20px;
-	margin-left: 20px;
-	font-family: 'Merriweather', serif;
-	display: inline-block;
-	margin-top: 10px;
-	/*border: 3px solid green;*/
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
 }
 .choice-body {
-	display: inline-block;
-	width: 200px;
-	font-family: 'Source Sans Pro', sans-serif;
-	margin-left: 20px;
-	font-size: 13px;
+  font-size: 14px;
+  font-family: "Source Sans Pro", sans-serif
 }
-.sign-start {
-	display: inline-block;
-	background-color: #c6c6c6;
-	/*top: 800; 
-	position: absolute;*/
-	height: 40px;
-	width: 200px;
-	margin-left: 40px;
-	float: left;
-}
+
 .button {
-	text-align: center; /*can't figure out how to center in box center?*/
-	font-family: 'Oswald', sans-serif;
+  background-color: #c6c6c6;
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  margin-left: 30px; 
+  box-shadow: 0px 5px grey;
+  border-radius: 5px;
+}
+.signup {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+.meet-match {
+	top: 300;
+	display: inline-block;
+	width: 400px;
+	height: 300px;
+	position: absolute;
+	right: 500;
+	background-color: #eeeeee;
+	opacity: .8;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.match-box {
+	opacity: 1.0;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.match-title {
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 30px;
+}
+.match-body {
+	font-size: 14px;
+	font-family: "Source Sans Pro", sans-serif
+}
+.match-button {
+	background-color: #fffe00;
+	display: inline-block;
+	width: 200px;
+	height: 50px;
+	margin-left: 100px; 
+	opacity: 1; /*can't figure out how to not make see-through*/
+	box-shadow: 0px 5px grey;
+    border-radius: 5px;
+}
+.create-profile {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
 }
 
 /*///----------FOOTER----------///*/
@@ -128,6 +166,14 @@ main {
 	display: inline-block;
 	background: black;
 	width: 1080px;
-	height: 100px;
-	/*opacity: .5*/
+	height: 70px;
+	opacity: .5
+	margin-top: 10px;
+
+}
+.closing {
+	color: white;
+	margin-top: 30px;
+	margin-left: 20px;
+	font-family: "Source Sans Pro", sans-serif
 }
