@@ -41,18 +41,18 @@ h1 {
 	text-align: center;
 	text-decoration: none;
 	margin: 0px 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.top-item:hover {
+	color: #ffffff;
+	background: #ff7401;
 }
 .nav-top {
 	color: white;
 	text-decoration: none;
 	font-family: 'Source Sans Pro', sans-serif;
 }
-/*hr {
-	display: block;
-	height: 5px;
-	padding: 0px;
-	background-color: #fffe00
-}*/ /*bad idea*/
 .super-top-list {
 	border-bottom: 5px solid #fffe00;
 }
@@ -119,6 +119,13 @@ main {
 .signup {
   text-align: center;
   font-family: 'Oswald', sans-serif;
+}
+.sign-click {
+	color: black;
+	text-decoration: none;
+}
+.sign-click:hover {
+	color: white;
 }
 
 .meet-match {
