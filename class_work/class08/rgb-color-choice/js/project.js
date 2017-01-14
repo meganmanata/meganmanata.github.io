@@ -19,17 +19,14 @@ document.getElementById('color-button').onclick = changeColor;
 function changeColor () {
 	// console.log('button click')
 	var red = document.getElementById('red').value;
-	// console.log('red is cool')
+	// console.log(red)
 	var green = document.getElementById('green').value;
 	var blue = document.getElementById('blue').value;
 
-	// var colorStr = document.getElementById('colorful-text').innerHTML;
-	// console.log(colorStr);
+	var colorStr = "".concat("rgb(",red,",", green,",", blue,")");
+ 	document.getElementById('colorful-text').innerHTML = colorStr
 
-	var str1 = "".concat('rgb'+red+','green +','blue);
- 	console.log(str1);
-
- 	// var str1 = colorStr;
+ 	document.getElementById("wrapper").style.background = colorStr
 
 }
 
