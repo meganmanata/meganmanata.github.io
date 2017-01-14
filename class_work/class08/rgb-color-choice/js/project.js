@@ -22,5 +22,14 @@ function changeColor () {
 	// console.log('red is cool')
 	var green = document.getElementById('green').value;
 	var blue = document.getElementById('blue').value;
+
+	// var colorStr = document.getElementById('colorful-text').innerHTML;
+	// console.log(colorStr);
+
+	var str1 = "".concat('rgb'+red+','green +','blue);
+ 	console.log(str1);
+
+ 	// var str1 = colorStr;
+
 }
 
