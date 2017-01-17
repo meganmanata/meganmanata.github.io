@@ -17,16 +17,29 @@
 document.getElementById('color-button').onclick = changeColor;
 
 function changeColor () {
-	// console.log('button click')
+
 	var red = document.getElementById('red').value;
-	// console.log(red)
 	var green = document.getElementById('green').value;
 	var blue = document.getElementById('blue').value;
 
 	var colorStr = "".concat("rgb(",red,",", green,",", blue,")");
- 	document.getElementById('colorful-text').innerHTML = colorStr
 
- 	document.getElementById("wrapper").style.background = colorStr
 
+	// guard against improper user input by 
+	// 1) checking if the values are out of range 0-255
+	// 2) checking make sure the inputs are numbers.  isNaN is smart! it already parses
+	// strings to integers, so we don't need to use isNaN(parseInt(...).  
+	// We also note that isnan(..) == true and isnan(..) are equivalent statements!
+	if (red > 255 || red < 0 || green > 255 || green < 0 || blue > 255 || blue < 0 ||
+		isNaN(red) == true || isNaN(blue) || isNaN(green) ) {
+		document.getElementById('colorful-text').innerHTML = "Error! Please enter values 0-255"
+	}
+
+	else {
+
+	 	document.getElementById('colorful-text').innerHTML = colorStr
+	 	document.getElementById("wrapper").style.background = colorStr
+
+	}
 }
 
