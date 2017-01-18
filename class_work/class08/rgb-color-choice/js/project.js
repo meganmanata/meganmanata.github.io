@@ -23,6 +23,7 @@ function changeColor () {
 	var blue = document.getElementById('blue').value;
 
 	var colorStr = "".concat("rgb(",red,",", green,",", blue,")");
+	// var colorStr = 'rgb(' + red + ', ' + green + ', ' + blue + ')'; alt method
 
 
 	// guard against improper user input by 
