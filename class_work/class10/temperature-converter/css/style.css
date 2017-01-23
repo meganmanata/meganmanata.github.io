@@ -22,3 +22,63 @@ h1:hover {
 				 5px 5px #454545, 
 				 6px 6px #454545;
 }
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.converter-box {
+	background-color: #b7b6b6;
+	display: inline-block;
+	/*right: 50%;*/
+	left: 50%;
+	margin-left: -150px;
+	position: absolute;
+	width: 300px;
+	height: 150px;
+	/*box-shadow: 5px 10px grey;*/
+}
+.left-side {
+	display: inline-block;
+	padding-left: 40px;
+	text-align: center;
+}
+.arrow {
+	padding-left: 10px;
+	font-size: 30px;
+}
+.right-side {
+	display: inline-block;
+	padding-left: 15px;
+	text-align: center;
+}
+.fight {
+	right: 14%;
+	margin-right: -105px;
+	left: 14%;
+	display: inline-block;
+	background-color: #757575;
+	/*border: 2px solid green;*/
+	text-align: center;
+	position: absolute;
+	top: 80px;
+	/*height: 40px;*/
+	padding: 0px;
+	margin-top: 5px;
+	width: 212px;
+	font-size: 13px;
+	/*box-shadow: 5px 5px grey;*/
+}
+
+.Fahrenheit_man {
+	display: inline-block;
+	padding-left: 280px;
+	/*position: absolute;*/
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+.Celsius_man {
+	display: inline-block;
+	padding-left: 550px;
+	font-size: 20px;
+	padding-bottom: 20px;
+}
