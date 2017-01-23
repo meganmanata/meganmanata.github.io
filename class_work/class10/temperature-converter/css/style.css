@@ -1,1 +1,24 @@
+/*shadow color choices: pinkish a51f45
+						grayish 757575
+						blackish 454545*/
 
+h1 {
+	text-align: center;
+	font-family: 'Bitter', serif;
+	padding-top: 10px;
+	font-size: 50px;
+	color: #fbf8f9;
+	text-shadow: 2px 2px 0px #454545,
+				 3px 3px 0px #454545,
+				 4px 4px 0px #454545;
+}
+h1:hover {
+	top: -3px; 
+	left: -3px; 
+	text-shadow: 1px 1px #454545, 
+				 2px 2px #454545, 
+				 3px 3px #454545, 
+				 4px 4px #454545, 
+				 5px 5px #454545, 
+				 6px 6px #454545;
+}
