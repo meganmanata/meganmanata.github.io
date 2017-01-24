@@ -27,9 +27,9 @@ function attack () {
 
 }
 
-$('#fightCtoF').click(attack)
+$('#fightCtoF').click(attack2)
 
-function attack () {
+function attack2 () {
 	
 	// console.log(attack)
 	$('.guys').attr('src', 'img/sci_fight_web.png');
