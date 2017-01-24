@@ -6,7 +6,7 @@
 		// console.log('click working');
 		
 		var out = $('#out').html()
-		// console.log(out);
+		 console.log(out);
 
 		$('#out').html(parseInt(out) + 10);
 

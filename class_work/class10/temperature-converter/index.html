@@ -21,16 +21,22 @@
 		<span class="arrow">&harrw;</span>
 		<div class="right-side">
 			<p>Celsius</p>
-				<input class="right" maxlength="4" size="6">
+				<input class="right" maxlength="4" size="6" readonly value=" "> <!-- makes box read-only. must set value in html -->
 		</div>
-		<div class="fight">
+		<div id="fight">
 			<p>EXCELSIUS!</p>
 		</div>
+		<div id="clear">
+			<p>Clear</p>
+		</div>
 	</div>
-	<img src="img/sci_posing_web.png">
+	<img class="guys" src="img/sci_posing_web.png">
 	<!-- <img src="img/sci_fight_web.png"> -->
+	
 	<div class="Fahrenheit_man">Daniel Gabriel Fahrenheit</div>
 	<div class="Celsius_man">Anders Celsius</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	<script type="text/javascript" src="js/project.js"></script>
 </body>
 </html>

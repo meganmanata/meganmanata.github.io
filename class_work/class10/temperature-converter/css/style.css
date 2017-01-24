@@ -1,7 +1,7 @@
 /*shadow color choices: pinkish a51f45
 						grayish 757575
 						blackish 454545*/
-
+/*---------HEADER----------*/
 h1 {
 	text-align: center;
 	font-family: 'Bitter', serif;
@@ -26,6 +26,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+/*---------BODY----------*/
 .converter-box {
 	background-color: #b7b6b6;
 	display: inline-block;
@@ -34,7 +35,7 @@ body {
 	margin-left: -150px;
 	position: absolute;
 	width: 300px;
-	height: 150px;
+	height: 200px;
 	/*box-shadow: 5px 10px grey;*/
 }
 .left-side {
@@ -51,24 +52,54 @@ body {
 	padding-left: 15px;
 	text-align: center;
 }
-.fight {
+.right: read-only{
+/*makes box read-only. must set value in html*/
+}
+#fight {
 	right: 14%;
 	margin-right: -105px;
 	left: 14%;
 	display: inline-block;
 	background-color: #757575;
-	/*border: 2px solid green;*/
 	text-align: center;
 	position: absolute;
 	top: 80px;
-	/*height: 40px;*/
 	padding: 0px;
 	margin-top: 5px;
 	width: 212px;
 	font-size: 13px;
-	/*box-shadow: 5px 5px grey;*/
+	cursor: pointer;
+}
+#fight:active {
+	border-top: solid 1px #757575;
+	border-left: solid 1px #757575;
+	border-bottom: none;
+	border-right: none;
+
+}
+#clear {
+	right: 14%;
+	margin-right: -105px;
+	left: 14%;
+	display: inline-block;
+	background-color: #757575;
+	text-align: center;
+	position: absolute;
+	top: 130px;
+	padding: 0px;
+	margin-top: 5px;
+	width: 212px;
+	font-size: 13px;
+	cursor: pointer;
+}
+#clear:active {
+	border-top: solid 1px #757575;
+	border-left: solid 1px #757575;
+	border-bottom: none;
+	border-right: none;
 }
 
+/*---------PICTURE----------*/
 .Fahrenheit_man {
 	display: inline-block;
 	padding-left: 280px;
