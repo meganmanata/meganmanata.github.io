@@ -10,21 +10,26 @@ function attack () {
 	
 	var out;
 
-	console.log(inp, isNaN(inp));
-	console.log(isNaN(" "))
+	// console.log(inp, isNaN(inp));
+	// console.log(isNaN(" "))
 
 	if (isNaN(parseFloat(inp))){
 		out = "Error!";
 	}
 
-	else{
+	else {
 		out = (inp-32)/1.8;
 		out = out.toFixed(2);
 	}
 
 	$('.right').val( out );
 
-
+	if ((parseFloat(inp)) > 70) {
+		$('background').attr('src', 'weather-hot.png');
+	} else {
+		$('background').css('background', 'blue');
+	}
+	console.log()
 }
 
 $('#fightCtoF').click(attack2)
@@ -39,8 +44,8 @@ function attack2 () {
 	
 	var out;
 
-	console.log(inp, isNaN(inp));
-	console.log(isNaN(" "))
+	// console.log(inp, isNaN(inp));
+	// console.log(isNaN(" "))
 
 	if (isNaN(parseFloat(inp))){
 		out = "Error!";
@@ -65,3 +70,14 @@ function reset () {
 
 	$('.guys').attr('src', 'img/sci_posing_web.png');
 }
+
+// $('#fight').click(bg-change)
+
+// function bg-change
+	
+// 		if (inp > 70) {
+// 		$('background').attr('src', 'weather-hot.png');
+// 	} else {
+// 		$('background').css('background', 'blue');
+// 	}
+// console.log(bg-change);
