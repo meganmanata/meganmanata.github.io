@@ -20,7 +20,7 @@ body {
 }
 
 .wrapper {
-	display: none;
+	display: none; /*this makes it 'hide' the content*/
 	background-color: white;
 	padding: 20px;
 }
