@@ -27,7 +27,7 @@ function attack () {
 	if ((parseFloat(inp)) > 70) {
 		$('background').attr('src', 'weather-hot.png');
 	} else {
-		$('background').css('background', 'blue');
+		$(body).css('background', 'blue');
 	}
 	console.log()
 }
