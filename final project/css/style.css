@@ -1,0 +1,35 @@
+.nav-top {
+	display: inline-block;
+	text-decoration: none;
+	list-style: none;
+	font-family: "Archivo Black", sans-serif;
+	padding: 5px;
+}
+.head-nav {
+	float: left;
+	display: inline-block;
+	padding-top: 20px;
+	left: 25%;
+	position: relative;
+}
+/*html { 
+   background: url(img/pizza_stock.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*.bg {
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+    -o-background-size: cover;
+    background: no-repeat center center fixed;
+}*/
+.small_logo {
+	height:	100px;
+	margin: 20px;
+	display: inline-block;
+	float: left;
+}
