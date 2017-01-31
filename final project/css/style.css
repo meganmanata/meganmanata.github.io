@@ -20,30 +20,31 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+}*/
 
-/*.bg {
+html {
+	background: url('../img/pizza_stock.jpg') no-repeat center center fixed;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
-    -o-background-size: cover;
-    background: no-repeat center center fixed;
-}*/
+    -o-background-size: cover; 
+}
 .small_logo {
 	height:	100px;
 	margin: 20px;
 	display: inline-block;
 	float: left;
 }
-body {
+/*body {
 	background-color: mediumseagreen;
-} /*this is just temp*/
+}*/ /*this is just temp
 
 /*@@@@@@@@@@@@@@@@@@@@MIDDLE@@@@@@@@@@@@@@@@@@@*/
-.outline-ribbon {
+/*.outline-ribbon {
   text-align:center;
   margin:2em auto 4em;
   max-width:600px;
+  font-family: "Archivo Black", sans-serif;
 }
 
 .link-ribbon {
@@ -135,4 +136,4 @@ a:hover .button:after {
   bottom:50%;
   left:0;
   right:-1.55em;
-}
+}*/
