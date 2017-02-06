@@ -17,7 +17,7 @@ $('#clickme').click(function () {
 	var newItem = $('#item').val()
 
 	if (newItem == ''){
-		// alert user
+		alert('need item');
 	}
 	else{
 		appendItem(newItem);	
@@ -30,10 +30,14 @@ function appendItem(newItem){
 	// console.log(appendItem)
 
 	$('#list').append('<li>' + newItem + '</li>');
-
-	$('#item').val('');
-
+	
+	$('#item').val('').focus();	
 }
+
+$('ul').on('click', 'li', function(){
+	$(this).remove(); 
+}) 
+// this removes the element!
 
 	// 1. Attach a .click() event to #clickme; attach an anonymous function to the .click()
 	// 1A. This anonymous function should create a variable, newItem equal to the value of #item
