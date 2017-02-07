@@ -14,7 +14,7 @@ body {
 /*///-----TOP BOX-----///*/
 .top-most {
 	background: black;
-	width: 1080px;
+	width: 82.5%;
 }
 
 h1 {
@@ -59,7 +59,7 @@ h1 {
 .grey-brains {
 	display: inline-block;
 	background-color: #eeeeee;
-	width: 1080px;
+	width: 82.5%;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .brains {
@@ -75,7 +75,7 @@ h1 {
 }
 /*///----------MAIN----------///*/
 .background {
-	width: 1080px; /*how do i get the top part behind the header?*/
+	width: 82.5%; /*how do i get the top part behind the header?*/
 }
 main {
 	overflow: hidden;
@@ -83,7 +83,7 @@ main {
 .choice-box {
   display: inline-block; 
   background-color: #eeeeee;
-  width: 1080px;
+  width: 82.5%;
   height: 200px;
   top: 700;
   position: absolute;
@@ -91,7 +91,7 @@ main {
 }
 .choice-small {
   display: inline-block;
-  width: 320px;
+  width: 30%;
   height: 100px;
   border-right: 2px solid gray;
   margin-top: 30px;
@@ -128,7 +128,7 @@ main {
 	color: white;
 }
 
-.meet-match {
+/*.meet-match {
 	top: 300;
 	display: inline-block;
 	width: 400px;
@@ -137,7 +137,7 @@ main {
 	right: 500;
 	background-color: #eeeeee;
 	opacity: .8;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 .match-box {
 	opacity: 1.0;
@@ -172,7 +172,7 @@ main {
 .black-box {
 	display: inline-block;
 	background: black;
-	width: 1080px;
+	width: 82.5%;
 	height: 70px;
 	opacity: .5
 	margin-top: 10px;
