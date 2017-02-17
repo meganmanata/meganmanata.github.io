@@ -55,3 +55,14 @@ html {
   bottom: -10%;
   display: inline-block;
 }
+.name {
+  display: inline-block;
+  font-family: "Archivo Black", sans-serif;
+  position: absolute;
+  bottom: 55%;
+  right: -4%;
+  left: 28%;
+  font-size: 300%;
+  letter-spacing: -1px;
+  color: white;
+}
