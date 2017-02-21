@@ -1,7 +1,7 @@
-/*@@@@@@@@@@@@@@@@@@@@BACKGROUND@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@HOME-BACKGROUND@@@@@@@@@@@@@@@@@@@*/
 
 body {
-	background: url('../img/pizza_stock.jpg') no-repeat center center fixed;
+	background: url('../img/pizza-bg-2.jpg') no-repeat center center fixed;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -24,7 +24,7 @@ html {
     z-index: -1;
 }
 
-/*@@@@@@@@@@@@@@@@@@@@TOP@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@@@@@@NAV@@@@@@@@@@@@@@@@@@@*/
 
 .nav-top {
 	display: inline-block;
@@ -40,7 +40,7 @@ html {
 	float: left;
 	display: inline-block;
 	padding-top: 20px;
-	left: 25%;
+	left: 22%;
 	position: relative;
 	z-index: 50;
 }
@@ -61,9 +61,7 @@ html {
 	float: left;
 	z-index: 500;
 }
-/*body {
-	background-color: mediumseagreen;
-}*/ /*this is just temp
+
 
 /*@@@@@@@@@@@@@@@@@@@@MIDDLE@@@@@@@@@@@@@@@@@@@*/
 .nyc-ribbon {
@@ -72,6 +70,7 @@ html {
   bottom: -10%;
   display: inline-block;
 }
+
 .name {
   display: inline-block;
   font-family: "Archivo Black", sans-serif;
@@ -83,6 +82,7 @@ html {
   letter-spacing: -1px;
   color: white;
 }
+
 .reject {
 	display: inline-block;
 	font-family: "Archivo Black", sans-serif; 
@@ -95,8 +95,26 @@ html {
 	color: white;
 	font-weight: 100;
 }
+
 .pizza-emoji {
 	width: 4%;
 	position: absolute;
 	bottom: 30%;
+	right: -5%;
+	left: 40%;
 }
+.pizza-emoji-2 {
+	width: 4%;
+	position: absolute;
+	bottom: 30%;
+	right: -5%;
+	left: 47%;
+}
+.pizza-emoji-3 {
+	width: 4%;
+	position: absolute;
+	bottom: 30%;
+	right: -5%;
+	left: 54%;
+}
+

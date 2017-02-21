@@ -1,0 +1,110 @@
+/*@@@@@@@@@@@@@@@@@@@@EATS-BACKGROUND@@@@@@@@@@@@@@@@@@@*/
+body {
+	background: url('../img/white_brick_wall.png') repeat;
+	/*background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+    -o-background-size: cover; 
+    min-height: 100%*/
+}
+
+html {
+	height: 100%;
+}
+
+.opaque-layer {
+    background-color: rgba(64, 62, 62, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /*height: 100%;*/
+    z-index: -50;
+}
+/*@@@@@@@@@@@@@@@@@@@@EATS-NAV@@@@@@@@@@@@@@@@@@@*/
+.nav-top {
+	display: inline-block;
+	text-decoration: none;
+	list-style: none;
+	font-family: "Archivo Black", sans-serif;
+	padding: 5px;
+	color: white;
+	font-size: 20px;
+}
+
+.head-nav {
+	float: left;
+	display: inline-block;
+	padding-top: 20px;
+	left: 22%;
+	position: relative;
+	z-index: 50;
+}
+
+.nav-link {
+	text-decoration: none;
+	color: white;
+}
+
+.top-logo {
+	z-index: 500;
+}
+
+.small_logo {
+	height:	100px;
+	margin: 20px;
+	display: inline-block;
+	float: left;
+	z-index: 500;
+}
+/*@@@@@@@@@@@@@@@@@@@@EATS-TOP@@@@@@@@@@@@@@@@@@@*/
+/*h1 {
+   padding-top: 10px;
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid #000; 
+   line-height: 0.1em;
+   margin: 10px 0 20px;
+   margin-left: 50px;
+} 
+
+h1 span { 
+    background:#fff; 
+    padding:0 10px; 
+}*/
+.menu-title {
+	position: absolute;
+	left: 50%;
+	bottom: 88%;
+	font-size: 30px;
+	font-family: "Archivo Black", sans-serif;
+	color: #e31d23;
+
+}
+.fancy {
+  line-height: 0.1;
+  text-align: center;
+}
+.fancy span {
+  display: inline-block;
+  position: relative;  
+}
+.fancy span:before,
+.fancy span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  top: 0;
+  width: 600px;
+}
+.fancy span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.fancy span:after {
+  left: 100%;
+  margin-left: 15px;
+}
