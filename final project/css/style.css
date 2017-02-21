@@ -95,3 +95,8 @@ html {
 	color: white;
 	font-weight: 100;
 }
+.pizza-emoji {
+	width: 4%;
+	position: absolute;
+	bottom: 30%;
+}
