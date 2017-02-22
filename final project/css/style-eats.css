@@ -1,11 +1,11 @@
 /*@@@@@@@@@@@@@@@@@@@@EATS-BACKGROUND@@@@@@@@@@@@@@@@@@@*/
 body {
-	background: url('../img/white_brick_wall.png') repeat;
-	/*background-size: cover;
+	background: url('../img/bg-eats-2.jpg') repeat;
+	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
     -o-background-size: cover; 
-    min-height: 100%*/
+    min-height: 100%
 }
 
 html {
