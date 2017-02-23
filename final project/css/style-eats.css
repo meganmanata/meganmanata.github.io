@@ -8,9 +8,9 @@ body {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
   -o-background-size: cover; 
-  min-height: 100%
-  padding-top: 40px;
-  /*background-attachment: fixed*/
+  min-height: 100%;
+  padding-top: 400px;
+  /*overflow: hidden;*/
 }
 
 html {
@@ -26,6 +26,7 @@ html {
 	padding: 5px;
 	color: black;
 	font-size: 20px;
+  /*padding-bottom: 40px;*/
 }
 
 .head-nav {
@@ -35,7 +36,7 @@ html {
   /*z-index: 1;*/
   width:100%;
   position:fixed;
-  top:0;
+  /*top:0;*/
   /*left:0;*/
   /*right:0;*/
 }
@@ -46,11 +47,13 @@ html {
 }
 
 .top-logo {
-  float: left;
+  /*float: left;*/
   margin-left: 10px;
   margin-top: 4px;
   z-index: 200;
   width: 100px;
+  position: absolute;
+  padding-bottom: 100px;
   /*overflow: hidden;*/
   /*position: fixed;*/
 }
@@ -60,7 +63,7 @@ html {
 	display: inline-block;
   /*margin: 4px;*/
   z-index: 200;
-  /*position: fixed;*/
+  position: fixed;
   /*overflow: hidden;*/
 }
 
@@ -68,9 +71,8 @@ html {
   overflow: hidden;
 }
 
-.head-nav.stickytop {
-    position:fixed;
-    top:0
+.empty {
+  height: 115px;
 }
 /*@@@@@@@@@@@@@@@@@@@@EATS-TOP@@@@@@@@@@@@@@@@@@@*/
 
@@ -83,6 +85,7 @@ html {
    box-sizing: border-box;
    margin: 10px auto;
    padding: 40px;
+   /*margin-top: 40px;*/
 }
 
 .menu-item {
