@@ -1,11 +1,14 @@
 /*@@@@@@@@@@@@@@@@@@@@PICS-BACKGROUND@@@@@@@@@@@@@@@@@@@*/
 body {
-	background-color: black;
-  	background-size: cover;
+	/*background: url('../img/bg-pics.jpg') no-repeat center center;*/
+	background-color: #292929;
+	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
-    -o-background-size: cover; 
-  	min-height: 100%
+	-o-background-size: cover; 
+	min-height: 100%;
+	padding-top: 400px;
+	background-attachment: fixed;
 }
 
 html {
@@ -13,22 +16,34 @@ html {
 }
 
 /*@@@@@@@@@@@@@@@@@@@@PICS-NAV@@@@@@@@@@@@@@@@@@@*/
+.page-header {
+  overflow: hidden;
+}
+
 .top-logo {
-  float: left;
-  margin-left: 10px;
-  margin-top: 10px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	z-index: 200;
+	width: 100px;
+	position: absolute;
+	padding-bottom: 100px;
 }
 
 .small_logo {
 	height:	100px;
 	display: inline-block;
+	z-index: 200;
+  	position: fixed;
 }
 
 .head-nav {
-  text-align: center;
-  padding: 35px;
-  /*background-color: white;*/
+	text-align: center;
+	padding: 35px;
+	width:100%;
+	position:fixed;
 }
+
 .nav-top {
 	display: inline-block;
 	text-decoration: none;
@@ -38,9 +53,14 @@ html {
 	color: white;
 	font-size: 20px;
 }
+
 .nav-link {
 	text-decoration: none;
 	color: white;
+}
+
+.empty {
+  height: 115px;
 }
 
 /*@@@@@@@@@@@@@@@@@@@@PICS-MIDDLE@@@@@@@@@@@@@@@@@@@*/
@@ -69,7 +89,6 @@ html {
   font-family: "Archivo Black", sans-serif; 
   font-size: 130%;
   overflow: hidden;
-  /*padding: 15px;*/
 }
 
 .TS-location {
@@ -81,4 +100,9 @@ html {
   text-align: right;
   padding-right: 10px;
   float: right;
+}
+
+.loc-tel-link {
+  text-decoration: none;
+  color: white;
 }

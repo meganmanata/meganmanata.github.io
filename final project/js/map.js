@@ -89,10 +89,12 @@ function initMap() {
 ]
    });
 
-// var image = '../img/FamousAmadeus-Logo.jpg';
+// var image = 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png';
+// marker.setIcon('http://maps.google.com/mapfiles/ms/icons/green-dot.png')
 var marker = new google.maps.Marker({
       position: {lat: 40.762408, lng: -73.985378}, 
       map: map
+      // icon: ('http://maps.google.com/mapfiles/ms/icons/green-dot.png')
       // icon: image
     });
 

@@ -8,6 +8,7 @@ body {
     -o-background-size: cover; 
     min-height: 100%;
    	position: relative;
+   	background-attachment: fixed;
 }
 
 html {
@@ -16,7 +17,7 @@ html {
 
 .opaque-layer {
     background-color: rgba(64, 62, 62, 0.5);
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
@@ -62,7 +63,7 @@ html {
    background-color: white;
    width: 40%;
    box-sizing: border-box;
-   margin: 30px auto;
+   margin: 5px auto;
    padding: 40px;
 }
 

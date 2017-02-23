@@ -7,7 +7,8 @@ body {
 	-moz-background-size: cover;
     -o-background-size: cover; 
     min-height: 100%;
-   	position: relative;
+    background-attachment: fixed;
+   	/*position: relative;*/
 }
 
 html {
@@ -16,7 +17,7 @@ html {
 
 .opaque-layer {
     background-color: rgba(64, 62, 62, 0.5);
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
@@ -24,13 +25,37 @@ html {
     z-index: -1;
 }
 
+/*@@@@@@@@@@@@@@@@@@@@NAV@@@@@@@@@@@@@@@@@@@*/
+
 .group:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/*@@@@@@@@@@@@@@@@@@@@NAV@@@@@@@@@@@@@@@@@@@*/
+.top-logo {
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	z-index: 200;
+	width: 100px;
+	position: absolute;
+	padding-bottom: 100px;
+}
+
+.small_logo {
+	height:	100px;
+	display: inline-block;
+	z-index: 200;
+  	position: fixed;
+}
+
+.head-nav {
+	text-align: center;
+	padding: 35px;
+	width:100%;
+	position:fixed;
+}
 
 .nav-top {
 	display: inline-block;
@@ -40,15 +65,6 @@ html {
 	padding: 5px;
 	color: white;
 	font-size: 20px;
-	text-align: center;
-}
-
-.head-nav {
-	display: inline-block;
-	padding-top: 20px;
-	z-index: 50;
-	text-align: center;
-	width: 100%;
 }
 
 .nav-link {
@@ -56,90 +72,73 @@ html {
 	color: white;
 }
 
-.top-logo {
-	z-index: 500;
-}
-
-.small_logo {
-	height:	100px;
-	z-index: 500;
-	position: absolute;
-	top: 2%;
-	left: 1%;
-}
-
 
 /*@@@@@@@@@@@@@@@@@@@@MIDDLE@@@@@@@@@@@@@@@@@@@*/
-.nyc-ribbon {
-  position: absolute;
-  margin: 0 auto;
-  display: block;
-  top: 30%;
-  left: 37.5%;
+.empty {
+  height: 70px;
 }
 
+.middle-stuff {
+	margin: 137px auto;
+	width: 100%;
+}
+
+.ribbon-wrap {
+	text-align: center;
+}
+.middle-text {
+	display: inline-block;
+	font-family: "Archivo Black", sans-serif;
+	color: white;
+	letter-spacing: -1px;
+	text-align: center;
+	width: 100%;
+}
 .name {
-  display: inline-block;
-  font-family: "Archivo Black", sans-serif;
   font-size: 300%;
-  letter-spacing: -1px;
-  color: white;
-  width: 100%;
-  text-align: center;
-  position: absolute;
-  top: 45%;
+  margin-bottom: 20px;
+  
 }
 
 .reject {
-	display: inline-block;
-	font-family: "Archivo Black", sans-serif; 
 	font-size: 200%;
-	letter-spacing: -1px;
-	color: white;
-	/*font-weight: 100;*/
-	width: 100%;
-	text-align: center;
-	position: absolute;
-	top: 55%;
+	margin-bottom: 25px;
 }
 
 .pizza-emoji {
 	width: 4%;
-	display: inline-block;
-	/*position: absolute;*/
+	/*margin-top: 20px;*/
 }
 
 .pizza-wrap {
 	width: 100%;
-	/*display: block;
-	margin: 0 auto;*/
-	/*padding-left: 43%;*/
 	text-align: center;
-	position: absolute;
-	top: 65%;
 }
 
 /*@@@@@@@@@@@@@@@@@@@@BOTTOM@@@@@@@@@@@@@@@@@@@*/
 
 .location-wrap {
-	color: white;
-	font-family: "Archivo Black", sans-serif; 
-	font-size: 130%
+  color: white;
+  font-family: "Archivo Black", sans-serif; 
+  font-size: 130%;
+  overflow: hidden;
+  /*margin: 60px auto;*/
 }
 
 .TS-location {
-	position: absolute;
-	/*top: 80%;*/
-	bottom: 20px;
-	left: 20px;
-	padding-left: 10px;
+  padding-left: 20px;
+  float: left;
 }
 
 .MSG-location {
-	position: absolute;
-	right: 20px;
-	/*top: 80%;*/
-	bottom: 20px;
-	text-align: right;
-	padding-right: 10px;
+  text-align: right;
+  padding-right: 20px;
+  float: right;
 }
+
+.loc-tel-link {
+	text-decoration: none;
+	color: white;
+}
+
+/*@@@@@@@@@@@@@@@@@@@@MEDIA@@@@@@@@@@@@@@@@@@@*/
