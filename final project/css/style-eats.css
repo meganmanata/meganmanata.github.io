@@ -1,27 +1,22 @@
+/*NOTE: 
+RED: #e31d23
+*/
 /*@@@@@@@@@@@@@@@@@@@@EATS-BACKGROUND@@@@@@@@@@@@@@@@@@@*/
 body {
-	background: url('../img/bg-eats-2.jpg') repeat;
-	background-size: cover;
+	/*background: url('../img/bg-eats-2.jpg') no-repeat center center;*/
+	background-color: #e31d23;
+  background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
-    -o-background-size: cover; 
-    min-height: 100%
+  -o-background-size: cover; 
+  min-height: 100%
+  /*background-attachment: fixed*/
 }
 
 html {
 	height: 100%;
 }
 
-.opaque-layer {
-    background-color: rgba(64, 62, 62, 0.2);
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    /*height: 100%;*/
-    z-index: -50;
-}
 /*@@@@@@@@@@@@@@@@@@@@EATS-NAV@@@@@@@@@@@@@@@@@@@*/
 .nav-top {
 	display: inline-block;
@@ -29,82 +24,116 @@ html {
 	list-style: none;
 	font-family: "Archivo Black", sans-serif;
 	padding: 5px;
-	color: white;
+	color: black;
 	font-size: 20px;
 }
 
 .head-nav {
-	float: left;
-	display: inline-block;
-	padding-top: 20px;
-	left: 22%;
-	position: relative;
-	z-index: 50;
+  text-align: center;
+  padding: 40px;
+  background-color: white;
 }
 
 .nav-link {
 	text-decoration: none;
-	color: white;
+	color: #e31d23;
 }
 
 .top-logo {
-	z-index: 500;
+  float: left;
+  margin-left: 10px;
+  margin-top: 4px;
 }
 
 .small_logo {
 	height:	100px;
-	margin: 20px;
 	display: inline-block;
-	float: left;
-	z-index: 500;
+  /*margin: 4px;*/
+}
+
+.page-header {
+  overflow: hidden;
 }
 /*@@@@@@@@@@@@@@@@@@@@EATS-TOP@@@@@@@@@@@@@@@@@@@*/
-/*h1 {
-   padding-top: 10px;
-   width: 100%; 
-   text-align: center; 
-   border-bottom: 1px solid #000; 
-   line-height: 0.1em;
-   margin: 10px 0 20px;
-   margin-left: 50px;
-} 
 
-h1 span { 
-    background:#fff; 
-    padding:0 10px; 
-}*/
-.menu-title {
-	position: absolute;
-	left: 50%;
-	bottom: 88%;
-	font-size: 30px;
-	font-family: "Archivo Black", sans-serif;
-	color: #e31d23;
+
+/*@@@@@@@@@@@@@@@@@@@@EATS-MIDDLE@@@@@@@@@@@@@@@@@@@*/
+
+.menu-box {
+   background-color: white;
+   width: 55%;
+   box-sizing: border-box;
+   margin: 10px auto;
+   padding: 40px;
+}
+
+.menu-item {
+  font-family: 'Lato', sans-serif;
+  padding: 15px 0;
+}
+
+.menu-name {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 100%;
+}
+
+.title {
+  font-family: "Archivo Black", sans-serif;
+  letter-spacing: 2px;
+  color: #e31d23;
+  font-size: 300%;
+}
+
+.pizza-sizes {
+  font-family: "Passion One", sans-serif;
+  font-size: 120%;
+}
+
+.eats-welcome {
+  font-family: 'Lato', sans-serif;
+  /*padding: 15px;*/
+  font-size: 150%;
 
 }
-.fancy {
-  line-height: 0.1;
-  text-align: center;
+
+.food-icon {
+  float: left;
 }
-.fancy span {
+
+.title-top {
   display: inline-block;
-  position: relative;  
+  padding-top: 40px;
+  padding-left: 15px;
 }
-.fancy span:before,
-.fancy span:after {
-  content: "";
-  position: absolute;
-  height: 5px;
-  border-bottom: 1px solid black;
-  border-top: 1px solid black;
-  top: 0;
-  width: 600px;
+
+.menu-section-head {
+  overflow: hidden;
 }
-.fancy span:before {
-  right: 100%;
-  margin-right: 15px;
+
+/*@@@@@@@@@@@@@@@@@@@@EATS-BOTTOM@@@@@@@@@@@@@@@@@@@*/
+
+.bottom-footer {
+  background-color: black;
+  box-sizing: border-box;
+  margin-top: 60px;
+  padding: 40px;
 }
-.fancy span:after {
-  left: 100%;
-  margin-left: 15px;
+
+.location-wrap {
+  color: white;
+  font-family: "Archivo Black", sans-serif; 
+  font-size: 130%;
+  overflow: hidden;
+  /*padding: 15px;*/
+}
+
+.TS-location {
+  padding-left: 10px;
+  float: left;
+}
+
+.MSG-location {
+  text-align: right;
+  padding-right: 10px;
+  float: right;
 }

@@ -21,7 +21,6 @@ html {
     left: 0;
     bottom: 0;
     width: 100%;
-    /*height: 100%;*/
     z-index: -1;
 }
 
@@ -45,11 +44,8 @@ html {
 }
 
 .head-nav {
-	/*float: left;*/
 	display: inline-block;
 	padding-top: 20px;
-	/*left: 30%;*/
-	/*position: relative;*/
 	z-index: 50;
 	text-align: center;
 	width: 100%;
@@ -66,9 +62,6 @@ html {
 
 .small_logo {
 	height:	100px;
-	/*margin: 20px;*/
-	/*display: inline-block;*/
-	/*float: left;*/
 	z-index: 500;
 	position: absolute;
 	top: 2%;
@@ -129,24 +122,24 @@ html {
 /*@@@@@@@@@@@@@@@@@@@@BOTTOM@@@@@@@@@@@@@@@@@@@*/
 
 .location-wrap {
-	/*padding-left: 5%;*/
 	color: white;
 	font-family: "Archivo Black", sans-serif; 
+	font-size: 130%
 }
 
 .TS-location {
 	position: absolute;
-	top: 80%;
-	font-size: 130%;
-	padding-left: 3%;
+	/*top: 80%;*/
+	bottom: 20px;
+	left: 20px;
+	padding-left: 10px;
 }
 
 .MSG-location {
 	position: absolute;
-	left: 80%;
-	top: 80%;
+	right: 20px;
+	/*top: 80%;*/
+	bottom: 20px;
 	text-align: right;
-	font-size: 130%
-	/*padding-right: 5%;*/
-	/*font-weight: 100;*/
+	padding-right: 10px;
 }
