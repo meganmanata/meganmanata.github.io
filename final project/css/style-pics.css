@@ -1,9 +1,22 @@
+/*@@@@@@@@@@@@@@@@@@@@PICS-BACKGROUND@@@@@@@@@@@@@@@@@@@*/
+body {
+	background-color: black;
+  	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+    -o-background-size: cover; 
+  	min-height: 100%
+}
+
+html {
+	height: 100%;
+}
 
 /*@@@@@@@@@@@@@@@@@@@@PICS-NAV@@@@@@@@@@@@@@@@@@@*/
 .top-logo {
   float: left;
   margin-left: 10px;
-  margin-top: 4px;
+  margin-top: 10px;
 }
 
 .small_logo {
@@ -13,7 +26,7 @@
 
 .head-nav {
   text-align: center;
-  padding: 40px;
+  padding: 35px;
   /*background-color: white;*/
 }
 .nav-top {
@@ -28,4 +41,44 @@
 .nav-link {
 	text-decoration: none;
 	color: white;
+}
+
+/*@@@@@@@@@@@@@@@@@@@@PICS-MIDDLE@@@@@@@@@@@@@@@@@@@*/
+.pic-wrap {
+	width: 75%;
+	margin: 20px auto;
+	/*border: 4px solid purple;*/
+}
+.pic {
+	width: 100%;
+	/*border:	15px solid red;*/
+	padding: 8px;
+}
+
+/*@@@@@@@@@@@@@@@@@@@@EATS-BOTTOM@@@@@@@@@@@@@@@@@@@*/
+
+.bottom-footer {
+  background-color: black;
+  box-sizing: border-box;
+  margin-top: 60px;
+  padding: 40px;
+}
+
+.location-wrap {
+  color: white;
+  font-family: "Archivo Black", sans-serif; 
+  font-size: 130%;
+  overflow: hidden;
+  /*padding: 15px;*/
+}
+
+.TS-location {
+  padding-left: 10px;
+  float: left;
+}
+
+.MSG-location {
+  text-align: right;
+  padding-right: 10px;
+  float: right;
 }

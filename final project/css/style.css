@@ -15,7 +15,7 @@ html {
 }
 
 .opaque-layer {
-    background-color: rgba(64, 62, 62, 0.7);
+    background-color: rgba(64, 62, 62, 0.5);
     position: absolute;
     top: 0;
     left: 0;

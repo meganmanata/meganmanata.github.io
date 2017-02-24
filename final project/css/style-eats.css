@@ -3,7 +3,6 @@ RED: #e31d23
 */
 /*@@@@@@@@@@@@@@@@@@@@EATS-BACKGROUND@@@@@@@@@@@@@@@@@@@*/
 body {
-	/*background: url('../img/bg-eats-2.jpg') no-repeat center center;*/
 	background-color: #e31d23;
   background-size: cover;
 	-webkit-background-size: cover;
@@ -91,9 +90,7 @@ html {
 
 .eats-welcome {
   font-family: 'Lato', sans-serif;
-  /*padding: 15px;*/
   font-size: 150%;
-
 }
 
 .food-icon {
